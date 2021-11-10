@@ -1,4 +1,5 @@
 # ☆Dump Setan☆
+Yo Ndak Tau Kok Tanya Saia:v
 
 # ➾ Install script
 🔗 pkg update && pkg upgrade
@@ -21,4 +22,4 @@
 
 🔗 ls
 
-🔗 python2 Jatmer.py
+🔗 python2 jatmer.py

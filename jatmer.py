@@ -45,10 +45,10 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.05)
 		
-jalan('\033[1;96m    +++++++ [ Script update by AangSans-Xyz ] +++++++ ')
-jalan('\033[1;92m  +++++++ [ SELAMAT MENGGUNAKAN SCRIPT INI ] +++++++ ')
-jalan('\033[1;93m    +++++++ [ WAJIB PAKAI AKUN FB BARU/AKUN TUMBAL!! ] +++++++ ')
-jalan('\033[1;92m  +++++++ [ JIKA TIDAK INGIN TERKENA SESI/CHECKPOINT!! ] +++++++ ')
+jalan('\033[1;96m  Script update by AangSans-Xyz ')
+jalan('\033[1;92m  SELAMAT MENGGUNAKAN SCRIPT INI ')
+jalan('\033[1;93m  WAJIB PAKAI AKUN FB BARU/AKUN TUMBAL!! ')
+jalan('\033[1;92m  JIKA TIDAK INGIN TERKENA SESI/CHECKPOINT!! ')
 logo = """ \033[1;96m
 ╭━━━╮╱╱╱╱╱╱╱╱╱╭━━━┳╮
 ╰╮╭╮┃╱╱╱╱╱╱╱╱╱┃╭━━┫┃
@@ -59,7 +59,7 @@ logo = """ \033[1;96m
 ╱╱╱╱╱╱╱╱╱╱┃┃
 ╱╱╱╱╱╱╱╱╱╱╰╯
 \033[1;93m➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫➫
-\033[1;97m• AUTHOR  : AangSans-Xyz
+\033[1;97m• AUTHOR    : AangSans-Xyz
 \033[1;97m• GITHUB    : Https://github.com/Aang21
 • FACEBOOK  : Https://www.facebook.com/clubfunbike
 • WHATSAPP  : 089524163441/0882007090803
@@ -89,12 +89,12 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		print 1*"\033[1;91m••••••••••••••••••••••••••••••••••"
-		print 1*"\33[1;97m   NOTE : WAJIB PAKAI AKUN BARU/AKUN TUMBAL"
-		print 1*"\033[1;91m••••••••••••••••••••••••••••••••••"
-		print('\033[1;92m[☆] \x1b[1;96mLOGIN AKUN FACEBOOK DULU SAYANG \x1b[1;92m[☆]' )
-		id = raw_input('\033[1;92m[+] \x1b[1;96mID/Email \x1b[1;91m: \x1b[1;92m')
-		pwd = raw_input('\033[1;92m[+] \x1b[1;96mPassword \x1b[1;91m: \x1b[1;92m')
+		print 1*"\033[1;91m•••••••••••••••••••••••••••••••••••••"
+		print 1*"\33[1;97mNOTE : WAJIB PAKAI AKUN BARU/AKUN TUMBAL"
+		print 1*"\033[1;91m•••••••••••••••••••••••••••••••••••••"
+		print('\033[1;92m[•] \x1b[1;96mLOGIN AKUN FACEBOOK DULU SAYANG \x1b[1;92m[•]' )
+		id = raw_input('\033[1;92m[=>] \x1b[1;96mID/Email \x1b[1;91m: \x1b[1;92m')
+		pwd = raw_input('\033[1;92m[=>] \x1b[1;96mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://mbasic.facebook.com')

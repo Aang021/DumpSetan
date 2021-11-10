@@ -1,6 +1,6 @@
-# DumpSetan [FbCrack]
+# DumpSetan ⇨FbCrack⇦
 
-# ➾Installation on termux
+# ➾Install script
 $ pkg update && pkg upgrade
 
 $ pkg install python2
@@ -16,7 +16,7 @@ $ git clone https://github.com/Aang21/DumpSetan
 $ rm -rf DumpSetan
 
 
-➾ Run Script
+# ➾Run Script
 $ cd DumpSetan
 
 $ ls

@@ -1,24 +1,18 @@
 # ☆Dump Setan☆
 
 # ➾ Install script
-$ pkg update && pkg upgrade
-
-$ pkg install python2
-
-$ pip2 install requests
-
-$ pip2 install mechanize
-
-$ pkg install git
-
-$ git clone https://github.com/Aang21/DumpSetan
-
-$ rm -rf DumpSetan
+🔗 pkg update && pkg upgrade
+🔗 pkg install python2
+🔗 pip2 install requests
+🔗 pip2 install mechanize
+🔗 pkg install git
+🔗 git clone https://github.com/Aang21/DumpSetan
+🔗 rm -rf DumpSetan
 
 
 # ➾ Run Script
-$ cd DumpSetan
+🔗 cd DumpSetan
 
-$ ls
+🔗 ls
 
-$ python2 Jatmer.py
+🔗 python2 Jatmer.py

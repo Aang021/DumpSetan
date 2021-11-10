@@ -23,3 +23,6 @@ Yo Ndak Tau Kok Tanya Saia:v
 🔗 ls
 
 🔗 python2 jatmer.py
+
+
+# Pasukan Comlay

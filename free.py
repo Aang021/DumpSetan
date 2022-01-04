@@ -256,7 +256,7 @@ def menu():
     print('%s╠══[%s7%s] %sCek Opsi Akun Checkpoin %s'%(O,K,O,H,pro))
     print('%s╠══[%s8%s] %sSetting User Agent'%(O,K,O,H))
     #print('%s╠══[%s9%s] %s%s'%(O,K,O,H,upgrade))
-    print('%s╠══[%s0%s] %sKeluar \x1b[0;96m[ \x1b[0;93mAhh Ngecrot \x1b[0;96m]'%(O,K,O,H))
+    print('%s╠══[%s0%s] %sKeluar \x1b[0;96m[\x1b[0;93mAhh Ngecrot\x1b[0;96m]'%(O,K,O,H))
     pm = input('%s╠══[%s•%s] %sPilih : '%(O,K,O,P))
     print('%s║'%(O))
     if pm in ['']:
@@ -1553,7 +1553,7 @@ def var_menu():
     print('%s╠══[%s2%s] %sLogin Pakai Cookies'%(O,K,O,H))
     print('%s╠══[%s3%s] %sTutorial Menggunakan Script'%(O,K,O,H))
     print('%s╠══[%s4%s] %sInfo Author & Team Project'%(O,K,O,H))
-    print('%s╠══[%s0%s] %sKeluar [Ahh Ngecrot]'%(O,K,O,H))
+    print('%s╠══[%s0%s] %sKeluar \x1b[0;96m[\x1b[0;93mAhh Ngecrot\x1b[0;96m]'%(O,K,O,H))
 def var_tutor():
     mlaku('%s╔══[%s Tips & Tutorial %s]'%(O,P,O))
     print('%s║'%(O))
@@ -1628,7 +1628,7 @@ def started():
     print('%s╠══[%s•%s] %sCrack Sedang Berjalan...'%(O,K,O,H))
     print('%s╠══[%s•%s] %sAkun OK Tersimpan Di OK/%s.txt'%(O,K,O,H,tanggal))
     print('%s╠══[%s•%s] %sAkun CP Tersimpan Di CP/%s.txt'%(O,K,O,H,tanggal))
-    print('%s╚══[%s•%s] %sIngat!! Mode Pesawatkan \x1b[0;96m[ \x1b[0;93m5 Detik \x1b[0;96m] \x1b[0;92mSetiap 3 Menit\n'%(O,K,O,H))
+    print('%s╚══[%s•%s] %sIngat!! Mode Pesawatkan \x1b[0;96m[\x1b[0;93m5 Detik\x1b[0;96m] \x1b[0;92mSetiap 3 Menit\n'%(O,K,O,H))
 def folder():
     try:os.mkdir("CP")
     except:pass

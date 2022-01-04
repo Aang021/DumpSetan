@@ -36,7 +36,7 @@ except ValueError:
 op = bulan[buTemp]
 tanggal = ("%s-%s-%s"%(ha,op,ta))
 ua_xiaomi  = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
-ua_nokia   = 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11'
+ua_nokia   = 'nokiac3-00/5.0 (07.20) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 applewebkit/420+ (khtml, like gecko) safari/420+'
 ua_asus    = 'Mozilla/5.0 (Linux; Android 5.0; ASUS_Z00AD Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
 ua_huawei  = 'Mozilla/5.0 (Linux; Android 8.1.0; HUAWEI Y7 PRIME 2019 Build/5887208) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.62 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
 ua_vivo    = 'Mozilla/5.0 (Linux; Android 11; vivo 1918) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.62 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
@@ -845,7 +845,6 @@ def tahun(fx):
         elif fx[:5] in ['10004']           :tahunz = ' • 2019'
         elif fx[:5] in ['10005']           :tahunz = ' • 2020'
         elif fx[:5] in ['10006','10007','10008']:tahunz = ' • 2021'
-        elif fx[:5] in ['10009']           :tahunz = ' • 2022'
         else:tahunz=''
     elif len(fx) in [9,10]:
         tahunz = ' • 2008/2009'
@@ -1104,14 +1103,14 @@ class crack:
                     open("CP/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 elif log.get("status")=="success":
-                    print("\r%s[%sOK%s] %s • %s%s     "%(O,H,O,fl.get("id"),i,tahun(fl.get("id"))))
+                    print("\r%s[%sOK%s] %s • %s%s     "%(H,K,H,fl.get("id"),i,tahun(fl.get("id"))))
                     self.ada.append("%s•%s"%(fl.get("id"),i))
                     open("OK/%s.txt"%(tanggal),"a+").write("%s•%s\n"%(fl.get("id"),i))
                     break
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK/%s%s][%sCP/%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[••][%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.api(fl)
     def api_opsi(self,fl):
@@ -1148,7 +1147,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK/%s%s][%sCP/%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[••][%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.api_opsi(fl)
     def mbasic(self,fl):
@@ -1185,7 +1184,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK/%s%s][%sCP/%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[••][%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.mbasic(fl)
     def mbasic_opsi(self,fl):
@@ -1227,7 +1226,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK/%s%s][%sCP/%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[••][%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.mbasic_opsi(fl)
     def free(self,fl):
@@ -1264,7 +1263,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK/%s%s][%sCP/%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[••][%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.free(fl)
     def free_opsi(self,fl):
@@ -1306,7 +1305,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%sCrack%s][%s%s/%s%s][%sOK/%s%s][%sCP/%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[••][%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
         except:
             self.free_opsi(fl)
 def target():
@@ -1629,7 +1628,7 @@ def started():
     print('%s╠══[%s•%s] %sCrack Sedang Berjalan...'%(O,K,O,H))
     print('%s╠══[%s•%s] %sAkun OK Tersimpan Di OK/%s.txt'%(O,K,O,H,tanggal))
     print('%s╠══[%s•%s] %sAkun CP Tersimpan Di CP/%s.txt'%(O,K,O,H,tanggal))
-    print('%s╚══[%s•%s] %sIngat!! Mode Pesawatkan [ 5 Detik ] Setiap 3 Menit\n'%(O,K,O,H))
+    print('%s╚══[%s•%s] %sIngat!! Mode Pesawatkan \x1b[0;96m[ \x1b[0;93m5 Detik \x1b[0;96m] \x1b[0;97mSetiap 3 Menit\n'%(O,K,O,H))
 def folder():
     try:os.mkdir("CP")
     except:pass

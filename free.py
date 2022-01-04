@@ -63,7 +63,7 @@ def banner():
 \x1b[0;96m  / / / /_/ / __ <  __/   || FORCE
 \x1b[0;96m /_/ /_/ /_/_____/_/\x1b[0;97mv1.3  \x1b[0;96m|| FACEBOOK
 \x1b[0;96m╔════════════════════════════════════════════════╗
-\x1b[0;96m║         \x1b[0;97m•• \x1b[0;93mTEGAL \x1b[0;96mMULTI \x1b[0;93mBRUTE \x1b[0;96mFORCE \x1b[0;97m••          \x1b[0;96m║
+\x1b[0;96m║         \x1b[0;97m•• \x1b[0;96mTEGAL \x1b[0;93mMULTI \x1b[0;93mBRUTE \x1b[0;96mFORCE \x1b[0;97m••          \x1b[0;96m║
 \x1b[0;96m╚════════════════════════════════════════════════╝
 \x1b[0;96m╠══[\x1b[0;93m•\x1b[0;96m]\x1b[0;97m Author   : Aang Ardiansyah-XD             \x1b[0;96m║
 \x1b[0;96m╠══[\x1b[0;93m•\x1b[0;96m]\x1b[0;97m Github   : Github.com/AngCyber            \x1b[0;96m║
@@ -204,7 +204,7 @@ def menu():
         upgrade = 'Ganti License Key'
         jid = ''
     except (KeyError,IOError):
-        status = 'Jomblo/Gak Laku'
+        status = '\x1b[0;96mJomblo/Gak Laku'
         users = '-'
         maile = '-'
         kunci = '-'
@@ -237,8 +237,8 @@ def menu():
         ip = " "
     print('%s╔══[ %sSelamat Datang %s %s]'%(O,H,n,O))
     print('%s║'%(O))
-    print('%s╠══[%s•%s] %sYour ID : %s'%(O,K,O,K,i))
-    print('%s╠══[%s•%s] %sYour IP : %s'%(O,K,O,K,ip))
+    print('%s╠══[%s•%s] %sYour ID : \x1b[0;96m%s'%(O,K,O,K,i))
+    print('%s╠══[%s•%s] %sYour IP : \x1b[0;96m%s'%(O,K,O,K,ip))
     #print('%s║'%(O))
     print('%s╠══[%s•%s] %sStatus  : %s'%(O,K,O,K,status))
     #print('%s╠══[%s•%s] %sNama : %s'%(O,K,O,P,users))
@@ -256,7 +256,7 @@ def menu():
     print('%s╠══[%s7%s] %sCek Opsi Akun Checkpoin %s'%(O,K,O,H,pro))
     print('%s╠══[%s8%s] %sSetting User Agent'%(O,K,O,H))
     #print('%s╠══[%s9%s] %s%s'%(O,K,O,H,upgrade))
-    print('%s╠══[%s0%s] %sKeluar [ Ahh Ngecrot ]'%(O,K,O,H))
+    print('%s╠══[%s0%s] %sKeluar \x1b[0;96m[ \x1b[0;93mAhh Ngecrot \x1b[0;96m]'%(O,K,O,H))
     pm = input('%s╠══[%s•%s] %sPilih : '%(O,K,O,P))
     print('%s║'%(O))
     if pm in ['']:
@@ -1628,7 +1628,7 @@ def started():
     print('%s╠══[%s•%s] %sCrack Sedang Berjalan...'%(O,K,O,H))
     print('%s╠══[%s•%s] %sAkun OK Tersimpan Di OK/%s.txt'%(O,K,O,H,tanggal))
     print('%s╠══[%s•%s] %sAkun CP Tersimpan Di CP/%s.txt'%(O,K,O,H,tanggal))
-    print('%s╚══[%s•%s] %sIngat!! Mode Pesawatkan \x1b[0;96m[ \x1b[0;93m5 Detik \x1b[0;96m] \x1b[0;97mSetiap 3 Menit\n'%(O,K,O,H))
+    print('%s╚══[%s•%s] %sIngat!! Mode Pesawatkan \x1b[0;96m[ \x1b[0;93m5 Detik \x1b[0;96m] \x1b[0;92mSetiap 3 Menit\n'%(O,K,O,H))
 def folder():
     try:os.mkdir("CP")
     except:pass
